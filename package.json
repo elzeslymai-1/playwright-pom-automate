@@ -1,0 +1,25 @@
+{
+  "name": "poc-playwright-2fa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10",
+    "mailslurp-client": "^15.21.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "otpauth": "^9.3.6",
+    "save": "^2.9.0"
+  }
+}
